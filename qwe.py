@@ -14,7 +14,7 @@ class Ex1:
             for z in range(len(tabofconsonants)):
                 if self.text[0] == tabofconsonants[z]:
                     cryptogram[0] = consonant
-                if self.text[1] == tabofconsonants[z]:
+                elif self.text[1] == tabofconsonants[z]:
                     cryptogram[1] = consonant
         return cryptogram, plaintext.lower()
 
