@@ -20,11 +20,11 @@ class Ex1:
 
 
 plaintext = input("Napisz slowo które chcesz zmienić: ")
-tab = list(plaintext.lower())
-tab2 = list(plaintext.lower())
+text1 = list(plaintext.lower())
+text2 = list(plaintext.lower())
 
-a1 = Ex1(tab)
-print(a1.encrypt(tab2))
+a1 = Ex1(text1)
+print(a1.encrypt(text2))
 
 
 
