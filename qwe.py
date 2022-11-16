@@ -16,7 +16,7 @@ class Ex1:
                     cryptogram[0] = consonant
                 if self.text[1] == tabofconsonants[z]:
                     cryptogram[1] = consonant
-        return cryptogram, plaintext
+        return cryptogram, plaintext.lower()
 
 
 plaintext = input("Napisz slowo które chcesz zmienić: ")
